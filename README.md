@@ -1,1 +1,1 @@
-Esta Pasta contém todos os TPC da cadeira Processamento de Linguagens
+Esta Pasta contém todos os ficheiros da cadeira Processamento de Linguagens
