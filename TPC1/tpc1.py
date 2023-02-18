@@ -126,15 +126,6 @@ def tabela_distribuicao(distribuicao):
             print("{:{}}".format(tabela[i][j], larguras[j]), end="  ")
         print()
 
-#dados = carregar_dados("myheart.csv")
-#print(dados.lista)
-#print(dados.extremos)
-
-#print(distribuicao_faixaEtaria(dados))
-#print(distribuicao_colesterol(dados))
-#tabela_distribuicao(distribuicao_sexo(dados))
-#print(tabela_distribuicao(distribuicao_faixaEtaria(dados)))
-#print(tabela_distribuicao(distribuicao_colesterol(dados)))
 def distribuicaoGrafico(distribuicao, f):
     x_eixo = np.arange(len(distribuicao.keys()))
     x_coords = [str(elem) for elem in distribuicao.keys()]
