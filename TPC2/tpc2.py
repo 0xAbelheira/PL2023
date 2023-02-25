@@ -20,10 +20,12 @@ for c in linha:
 
     if c == "O":
         aux_state = c
-    elif c == "N" and aux_state == "O":
+    elif c == "N" and aux_state == "O": 
         state = True
+        aux_state = ""
     elif c == "F" and aux_state == "OF":
         state = False
+        aux_state = ""
     elif c == "F" and aux_state == "O":
         aux_state += c
     elif c == "=":
