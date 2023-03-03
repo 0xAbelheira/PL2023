@@ -86,7 +86,6 @@ def distribuicao_faixaEtaria(dados): # idade máxima é 77 e mínima 28
         intervalo = pessoa.idade//5
         res[(intervalo*5, intervalo*5 + 4)][pessoa.doenca] += 1
         
-
     return res
 
 def distribuicao_colesterol(dados):
