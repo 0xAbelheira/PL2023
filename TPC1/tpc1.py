@@ -155,7 +155,6 @@ csv_path = input("Path do ficheiro CSV:\n")
 dados = carregar_dados(csv_path)
 print("Dados Carregados")
 
-
 option = 0
 while option != 4:
     print('\n')
