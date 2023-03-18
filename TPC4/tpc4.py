@@ -3,7 +3,7 @@ import json
 from statistics import mean
 
 def main():
-    file = open("alunos.csv")
+    file = open("TPC4/datasets/alunosListaInt.csv")
     lines = file.readlines()
     file.close()
 
